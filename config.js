@@ -1,7 +1,5 @@
-// Only the project URL and PUBLIC publishable (or legacy anon) key belong here.
-// Never place a secret or service_role key in this repository.
 window.LPN_CONFIG = {
-  supabaseUrl: '',
-  supabasePublicKey: '',
+  supabaseUrl: 'https://glkxtkaaztmfgffrleuv.supabase.co',
+  supabasePublicKey: 'sb_publishable_aoQbbfHbahkNWbiY5-Tuwg_A8YPr5F8',
   title: 'Claire’s LPN Clinical Case Lab'
 };
