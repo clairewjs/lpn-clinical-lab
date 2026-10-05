@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p _site/assets
           cp index.html config.js _site/
-          cp assets/app.js assets/cases.js assets/style.css _site/assets/
+          cp assets/app.js assets/style.css _site/assets/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
